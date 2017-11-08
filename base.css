@@ -1,0 +1,72 @@
+/*
+1. GENERAL
+2. CALENDAR
+------------------------------------------*/
+
+
+/* GENERAL
+------------------------------------------*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: #FEFEFE;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* CALENDAR
+------------------------------------------*/
+
+.day-names,
+#days {
+    display: flex;
+    justify-content: space-around;
+}
+
+#days {
+    flex-wrap: wrap;
+}
+
+.square,
+.diff-square,
+.day-names p  {
+    flex: 0 1 13%;
+}
+
+.square,
+.diff-square {
+    color: #fff;
+    height: 12rem;
+    margin-bottom: 1rem;
+    border-radius: .3rem;
+}
+
+.square {
+    background: #4A9CD5;
+}
+
+.diff-square {
+    background: #F1616B;
+}
+
+.diff-square p,
+.day-names p,
+.square p {
+    margin: 1rem;
+}
